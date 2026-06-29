@@ -3,13 +3,48 @@
     padding: 0;
 }
 
+/* Import Fonts */
 @font-face {
     font-family: 'Bricolage Grotesque';
     src: url(/fonts/Bricolage_Grotesque/BricolageGrotesque-VariableFont_opsz\,wdth\,wght.ttf);
-    font-variation-settings: ;
+    font-variation-settings: "wght" 800;
     font-width: 100;
 }
-
-h1, h2 {
-    font-family: 'Bricolage Grotesque';
+@font-face {
+    font-family: 'M Plus Rounded';
+    src: url(/fonts/M_PLUS_Rounded_1c/MPLUSRounded1c-Regular.ttf);
 }
+@font-face {
+    font-family: 'M Plus Rounded Med';
+    src: url(/fonts/M_PLUS_Rounded_1c/MPLUSRounded1c-Medium.ttf);
+}
+
+:root {
+    --grey: hsl(0, 0%, 36%);
+}
+
+body {
+    
+}
+
+h1 {
+    font-family: 'Bricolage Grotesque', serif;
+    font-size: 3rem;
+}
+
+h2 {
+    font-family: 'Bricolage Grotesque', serif;
+    font-size: 1.5rem;
+}
+
+h3 {
+    font-family: 'M Plus Rounded Med', sans-serif;
+    font-size: 1rem;
+}
+
+p {
+    font-family: 'M Plus Rounded', sans-serif;
+    font-size: .9rem;
+    color: var(--grey);
+}
+
