@@ -70,3 +70,7 @@ p {
     font-size: 1rem;
     color: var(--grey);
 }
+
+strong {
+    font-family: 'M Plus Rounded Med', sans-serif;
+}
