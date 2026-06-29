@@ -46,8 +46,21 @@ nav {
     justify-content: end;
 }
 
-body {
-   
+.hero-section {
+    display: flex;
+    /* flex-direction: column; */
+    flex-wrap: nowrap;
+    gap: ;
+    margin: 50px;
+    padding: 50px;
+}
+
+.profile-img {
+    height: 300px;
+}
+
+main {
+    margin: 40px;
 }
 
 h1 {
@@ -73,4 +86,8 @@ p {
 
 strong {
     font-family: 'M Plus Rounded Med', sans-serif;
+}
+
+.cards-section {
+    margin: 50px;
 }
