@@ -1,6 +1,7 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 /* Import Fonts */
@@ -23,8 +24,23 @@
     --grey: hsl(0, 0%, 36%);
 }
 
+
+.nav ul {
+    list-style: none;
+}
+
+ul a {
+    text-decoration: none;
+    color: inherit;
+    font-family: 'M Plus Rounded', sans-serif;
+}
+
+.nav-bar {
+
+}
+
 body {
-    
+    font-size: 16px;
 }
 
 h1 {
@@ -39,12 +55,12 @@ h2 {
 
 h3 {
     font-family: 'M Plus Rounded Med', sans-serif;
-    font-size: 1rem;
+    font-size: 1.2rem;
 }
 
 p {
     font-family: 'M Plus Rounded', sans-serif;
-    font-size: .9rem;
+    font-size: 1rem;
     color: var(--grey);
 }
 
