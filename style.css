@@ -21,20 +21,20 @@
 }
 
 :root {
-    --grey: hsl(0, 0%, 36%);
-    --cream: hsl(38, 64%, 96%);
+    --headings-main: hsl(50, 67%, 97%, 94%);
+    --soft-text: hsl(50, 67%, 97%, 55%);
+    --bg-main: hsl(224, 22%, 19%)
 }
 
 html {
-    font-size: 16px;
-    background-color: var(--cream);
+    font-size: 20px;
+    background-color: var(--bg-main);
 }
 
 nav ul {
     list-style: none;
     display: flex;
     gap: 2.5em;
-    margin: 40px;
 }
 
 ul a {
@@ -44,8 +44,10 @@ ul a {
 }
 
 nav {
+    color: var(--headings-main);
     display: flex;
     justify-content: end;
+    margin: 100px;
 }
 
 .hero-section {
@@ -73,28 +75,31 @@ main {
 }
 
 section {
-    margin: ;
+
 }
 
 h1 {
     font-family: 'Bricolage Grotesque', serif;
-    font-size: 4.5rem;
+    font-size: 3.5rem;
+    color: var(--headings-main);
 }
 
 h2 {
     font-family: 'Bricolage Grotesque', serif;
-    font-size: 2.6rem;
+    font-size: 2rem;
+    color: var(--headings-main);
 }
 
 h3 {
     font-family: 'M Plus Rounded Med', sans-serif;
     font-size: 1.2rem;
+    color: var(--headings-main);
 }
 
 p {
     font-family: 'M Plus Rounded', sans-serif;
-    font-size: 1rem;
-    color: var(--grey);
+    font-size: .9rem;
+    color: var(--soft-text);
 }
 
 strong {
