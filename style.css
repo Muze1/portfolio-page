@@ -29,7 +29,7 @@
 html {
     font-size: 20px;
     background-color: var(--bg-main);
-    padding: 100px;
+    padding: 0 5em;
 }
 
 nav ul {
@@ -64,32 +64,28 @@ nav {
     align-items: center;
 }
 
-.role-text {
-    font-size: 1.1rem;
-}
-
 main {
     display: flex;
     flex-direction: column;
     margin: 2em;
-    gap: 3em;
 }
 
-section {
-
+header {
+    padding: 6em 0 0 0;
 }
 
 h1 {
     font-family: 'Bricolage Grotesque', serif;
     font-size: 3.5rem;
     color: var(--headings-main);
-    margin: 32px 0 4px 0;
+    margin-top: 1em;
 }
 
 h2 {
     font-family: 'Bricolage Grotesque', serif;
-    font-size: 2rem;
+    font-size: 2.2rem;
     color: var(--headings-main);
+    margin-top: 2.2em;
 }
 
 h3 {
@@ -98,32 +94,29 @@ h3 {
     color: var(--headings-main);
 }
 
+h4 {
+    font-family: 'M Plus Rounded', sans-serif;
+    font-size: 1.1rem;
+    color: var(--soft-text);
+    margin-top: 0.5em;
+}
+
 p {
     font-family: 'M Plus Rounded', sans-serif;
     font-size: 1rem;
     color: var(--soft-text);
+    margin: 1.9em;
+    max-width: 30em;
 }
 
 strong {
     font-family: 'M Plus Rounded Med', sans-serif;
 }
 
-.projects-text {
-    margin: 1.7em;
-}
-
 .cards-section {
     margin: 0 2.5em;
 }
 
-.about-text {
-    margin: 1.7em;
-}
-
-.contact-text {
-    margin: 1.7em;
-}
-
 .link-icons {
-    margin: 1.5em;
+    margin: 1.7em;
 }
