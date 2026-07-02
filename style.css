@@ -26,9 +26,10 @@
     --bg-main: hsl(224, 22%, 19%)
 }
 
-html {
+body {
     font-size: 20px;
     background-color: var(--bg-main);
+    padding: 100px;
 }
 
 nav ul {
@@ -47,7 +48,7 @@ nav {
     color: var(--headings-main);
     display: flex;
     justify-content: end;
-    margin: 100px;
+    margin-right: 50px;
 }
 
 .hero-section {
@@ -63,8 +64,12 @@ nav {
     align-items: center;
 }
 
-.profile-img {
-    height: 300px;
+.hi-text {
+    margin: 32px 0 4px 0;
+}
+
+.role-text {
+    font-size: 1.2rem;
 }
 
 main {
@@ -98,7 +103,7 @@ h3 {
 
 p {
     font-family: 'M Plus Rounded', sans-serif;
-    font-size: .9rem;
+    font-size: 1rem;
     color: var(--soft-text);
 }
 
