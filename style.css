@@ -26,7 +26,7 @@
     --bg-main: hsl(224, 22%, 19%)
 }
 
-body {
+html {
     font-size: 20px;
     background-color: var(--bg-main);
     padding: 100px;
@@ -48,14 +48,14 @@ nav {
     color: var(--headings-main);
     display: flex;
     justify-content: end;
-    margin-right: 50px;
+    margin-right: 2.5em;
 }
 
 .hero-section {
     display: flex;
     justify-content: center;
-    margin: 50px;
-    padding: 50px;
+    margin: 2.5em;
+    padding: 2.5em;
 }
 
 .hero-left {
@@ -64,19 +64,15 @@ nav {
     align-items: center;
 }
 
-.hi-text {
-    margin: 32px 0 4px 0;
-}
-
 .role-text {
-    font-size: 1.2rem;
+    font-size: 1.1rem;
 }
 
 main {
     display: flex;
     flex-direction: column;
-    margin: 40px;
-    gap: 3em
+    margin: 2em;
+    gap: 3em;
 }
 
 section {
@@ -87,6 +83,7 @@ h1 {
     font-family: 'Bricolage Grotesque', serif;
     font-size: 3.5rem;
     color: var(--headings-main);
+    margin: 32px 0 4px 0;
 }
 
 h2 {
@@ -111,7 +108,22 @@ strong {
     font-family: 'M Plus Rounded Med', sans-serif;
 }
 
+.projects-text {
+    margin: 1.7em;
+}
 
 .cards-section {
-    margin: 50px;
+    margin: 0 2.5em;
+}
+
+.about-text {
+    margin: 1.7em;
+}
+
+.contact-text {
+    margin: 1.7em;
+}
+
+.link-icons {
+    margin: 1.5em;
 }
