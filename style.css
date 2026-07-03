@@ -25,7 +25,7 @@
     --soft-text: hsl(50, 67%, 97%, 55%);
     --bg-main: hsl(224, 22%, 19%);
     --section: hsl(221, 27%, 25%, 100%);
-    --section-shadow: hsla(222, 34%, 20%, 0.69);
+    --section-shadow: hsl(222, 34%, 20%, 0.69);
 }
 
 html {
@@ -101,7 +101,7 @@ p {
     font-family: 'M Plus Rounded', sans-serif;
     font-size: 1rem;
     color: var(--soft-text);
-    margin: 1.9em;
+    margin: 2.2em;
     max-width: 30em;
 }
 
@@ -117,14 +117,26 @@ strong {
     background-color: var(--section);
     border-radius: 24px;
     box-shadow: 0 0 20px -10px currentColor;
-    margin: 10em 0;
-    padding: ;
+    margin-top: 10em;
+    padding-top: 6em;
 }
 
-.contact-title {
-    
+.about-box {
+    margin-top: 2em;
+    padding-top: 6em;
+}
+
+section {
+    padding: 3em;
 }
 
 .link-icons {
-    margin: 1.7em;
+    margin: 2em;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2em;
 }
