@@ -132,12 +132,24 @@ section {
     padding: 3em;
 }
 
-form {
+input,
+button,
+select,
+textarea {
+    font: inherit;
+}
 
+form {
+    display: grid;
+    gap: 1rem;
+
+    @media (width > 720px) {
+        grid-template-columns: 1fr 1fr;
+    }
 }
 
 .form-group {
-
+    display: grid;
 }
 
 label {
@@ -147,11 +159,13 @@ label {
 }
 
 input {
-    background-color: var(--section-shadow);
+    background-color: var(--accent);
     color: var(--soft-text);
     border: var(--border);
     border-radius: 8px;
     padding: 1ex 2ex;
+
+    width: 100%;
 }
 
 #submit {
@@ -159,6 +173,8 @@ input {
     color: var(--soft-text);
     border-radius: 16px;
     padding: 1ex 3ex;
+
+    justify-self: end;
 }
 
 .link-icons {
