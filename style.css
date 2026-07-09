@@ -26,6 +26,8 @@
     --bg-main: hsl(224, 22%, 19%);
     --section: hsl(221, 27%, 25%, 100%);
     --section-shadow: hsl(222, 34%, 20%, 0.69);
+    --accent: hsl(2, 73%, 57%);
+    --border: solid 1px hsl(226, 19%, 32%);
 }
 
 html {
@@ -128,6 +130,35 @@ strong {
 
 section {
     padding: 3em;
+}
+
+form {
+
+}
+
+.form-group {
+
+}
+
+label {
+    font-family: 'M Plus Rounded', sans-serif;
+    font-size: 1rem;
+    color: var(--headings-main);
+}
+
+input {
+    background-color: var(--section-shadow);
+    color: var(--soft-text);
+    border: var(--border);
+    border-radius: 8px;
+    padding: 1ex 2ex;
+}
+
+#submit {
+    background-color: var(--soft-text);
+    color: var(--soft-text);
+    border-radius: 16px;
+    padding: 1ex 3ex;
 }
 
 .link-icons {
