@@ -136,7 +136,8 @@ input,
 button,
 select,
 textarea {
-    font: inherit;
+    font-family: 'M Plus Rounded', sans-serif;
+    font-size: .8rem;
 }
 
 form {
@@ -169,7 +170,6 @@ input {
 }
 
 #submit {
-    background-color: var(--soft-text);
     color: var(--soft-text);
     border-radius: 16px;
     padding: 1ex 3ex;
